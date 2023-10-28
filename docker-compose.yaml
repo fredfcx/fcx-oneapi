@@ -7,4 +7,9 @@ services:
       - "3000:3000"
     restart: always
     volumes:
-      - ~/free-one-api/data:/app/data
+      - ~/fcx-one-api/data:/app/data
+
+ 
+ 
+volumes:
+    ~/fcx-one-api/data: {}
