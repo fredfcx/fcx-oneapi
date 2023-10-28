@@ -1,7 +1,7 @@
 version: '3'
 services:
   free-one-api:
-    container_name: free-one-api
+    container_name: fcx-oneapi
     image: rockchin/free-one-api
     ports:
       - "3000:3000"
